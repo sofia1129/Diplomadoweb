@@ -1,0 +1,30 @@
+h1{
+	color:#00FFD8;
+}
+
+.mitabla{
+	border:solid;
+	margin: 0 auto;
+	width:60%;
+}
+
+.mitabla tr td{
+	border:solid;
+}
+
+.mitabla tr:nth-child(even){
+	background: silver;
+	padding: 0.5em;
+}
+
+.mitabla tr{
+	background: lightblue;
+	color:black;
+	transition: all linear 0.5s;
+}
+
+.mitabla tr:hover{
+	background: black;
+	color:white;
+	transform: scale(2,2) rotate(3deg);
+}

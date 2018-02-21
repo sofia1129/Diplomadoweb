@@ -1,0 +1,15 @@
+html,body{
+	height: 100%;
+}
+
+body{
+	background: url("fondo pusheen.png") no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+.texto{
+	column-count: 3;
+	column-rule: dashed 0.2em;
+	width: 30%;
+}
